@@ -1,0 +1,24 @@
+{
+  "name": "antd-api-scraping",
+  "version": "1.0.0",
+  "description": "antd API File organization automation system",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "node app.js ",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "yj.kang <yj.kang@zipida.com>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@notionhq/client": "^2.2.3",
+    "axios": "^1.3.4",
+    "cheerio": "^1.0.0-rc.12",
+    "dayjs": "^1.11.7",
+    "express": "^4.18.2",
+    "js-yaml": "^4.1.0",
+    "nodemon": "^2.0.21"
+  },
+  "type": "module"
+}
